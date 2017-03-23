@@ -11,4 +11,3 @@ curl -fsSL https://yum.dockerproject.org/gpg | apt-key add -
 echo "deb https://apt.dockerproject.org/repo/ ubuntu-$UBUNTU_CODENAME main" > /etc/apt/sources.list.d/docker.list
 apt-get update -q
 apt-get install --no-install-recommends -qy docker-engine=$DOCKER_VERSION
-adduser jenkins docker

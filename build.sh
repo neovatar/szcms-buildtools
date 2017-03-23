@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-IMAGE_REPOSITORY=docker.sueddeutsche.de/szpolopoly/jenkins
+IMAGE_REPOSITORY=szcms-buildtools
 
 [ -f REPOSITORY ] && rm REPOSITORY
 [ -f BUILDTAG ] && rm BUILDTAG
